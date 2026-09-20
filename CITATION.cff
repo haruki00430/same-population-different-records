@@ -5,8 +5,8 @@ title: "Same population, different records: stress-testing healthcare quality me
 version: 1.0.0
 date-released: 2026-09-20
 license: MIT
-doi: TBD
-repository-code: TBD
+doi: 10.5281/zenodo.22851912
+repository-code: "https://github.com/haruki00430/same-population-different-records"
 authors:
   - family-names: Saito
     given-names: Haruki
