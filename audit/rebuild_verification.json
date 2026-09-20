@@ -1,0 +1,7 @@
+{
+  "figures_byte_identical_on_rebuild": true,
+  "figure_files_checked": 24,
+  "config_matches_pre_execution_hash": true,
+  "protocol_matches_pre_execution_hash": true,
+  "tests": "16 passed; see test_results.txt"
+}

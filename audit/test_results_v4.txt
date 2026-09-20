@@ -1,0 +1,9 @@
+pytest -q (installed console entry point; project root supplied by pytest.ini)
+................                                                         [100%]
+16 passed in 1.96s
+
+python -m pytest -q
+................                                                         [100%]
+16 passed in 1.99s
+
+Both runs used the same Python runtime and dependency directory. PYTHONPATH exposed the dependency directory only, not the project root.

@@ -1,0 +1,18 @@
+{
+  "revision": 2,
+  "protected_files_sha256_unchanged": 34,
+  "protected_scope": "Original results, simulation source, configuration, protocol, and main figures 1–4",
+  "new_study_simulations": 0,
+  "references": 12,
+  "in_text_citations_resolve": true,
+  "supplement_S9_rows_checked_against_original_results": 10,
+  "derived_display_files_deterministic": 5,
+  "tests_passed": 16,
+  "word_counts": {
+    "abstract_words": 246,
+    "main_body_words_excluding_abstract_references_declarations": 3077,
+    "complete_draft_words": 4142
+  },
+  "new_display": "Supplementary figure S5 and table S9 show all existing main SPC endpoints",
+  "remaining_author_checks": "Author declarations; current journal submission limits; source date/correction details listed in manuscript/unverified_citations.md"
+}

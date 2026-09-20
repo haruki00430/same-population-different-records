@@ -1,0 +1,10 @@
+{
+  "validation_cells": 1085,
+  "max_abs_z": 3.5642692161,
+  "all_R_10000": true,
+  "main_AC_cells": 409,
+  "main_risk_cells": 168,
+  "sensitivity_AC_cells": 676,
+  "sensitivity_risk_cells": 88,
+  "SPC_cells": 40
+}

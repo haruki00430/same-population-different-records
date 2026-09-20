@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.22621-SP0",
+  "dependencies": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "PyYAML": "6.0.3",
+    "pytest": "9.1.1"
+  }
+}

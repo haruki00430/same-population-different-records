@@ -1,0 +1,9 @@
+{
+  "safety_10pct_masking_capture_change_pp": 8.888888888888891,
+  "process_10pct_masking_capture_change_pp": -7.272727272727275,
+  "risk_B1_10pct_masking_capture_change_pp": -14.658037939559554,
+  "risk_B2_10pct_masking_capture_change_pp": -18.447091319757792,
+  "SPC_abrupt_090_primary_probability": 0.5254,
+  "SPC_no_change_primary_probability": 0.1106,
+  "all_main_replicates": 10000
+}

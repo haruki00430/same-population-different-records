@@ -1,0 +1,50 @@
+seed: 20260920
+replicates: 10000
+batch_size: 100
+N: 2000
+sample_sizes: [500, 1000, 5000, 10000]
+improvements: [0.0, 0.1, 0.2]
+thresholds: [0.05, 0.1]
+mask_band: 0.01
+safety:
+  p: 0.05
+  se_A: 0.8
+  sp_A: 1.0
+  se_grid: [0.6, 1.0, 0.025]
+  prevalence_sensitivity: [0.01, 0.1, 0.2]
+  specificity_sensitivity: [0.995, 0.99]
+  baseline_sensitivity: [0.6, 0.9]
+risk:
+  prevalence: 0.08
+  beta: [0.3, 0.5, 0.5, 0.8, 1.1]
+  comorbidity_prevalence: [0.15, 0.25, 0.35]
+  capture_A: 0.7
+  specificity: 0.995
+  capture_grid: [0.5, 1.0, 0.025]
+  development_N: 250000
+  sensitivity_grid: [0.5, 0.7, 0.9, 1.0]
+  baseline_sensitivity: [0.5, 0.9]
+  correlated_error_mixture: 0.5
+  severity_capture_offset: 0.1
+process:
+  eligibility: 0.3
+  completion: 0.75
+  se_D: 0.95
+  fpr_D: 0.005
+  se_N: 0.8
+  numerator_grid: [0.6, 1.0, 0.025]
+  denominator_grid: [0.7, 1.0, 0.025]
+  fpr_grid: [0.0, 0.03, 0.0025]
+  completion_sensitivity: [0.5, 0.9]
+  eligibility_sensitivity: [0.1, 0.5]
+spc:
+  baseline_months: 24
+  followup_months: 24
+  monthly_N: 1000
+  monthly_N_sensitivity: [250, 500, 5000]
+  endpoints: [0.8, 0.82, 0.85, 0.9, 0.95]
+  run_length: 8
+  sigma: 3
+reliability:
+  prevalence_range: [0.03, 0.07]
+  se_B: 0.9

@@ -1,0 +1,15 @@
+Risk main paired
+Risk main repeated
+Risk sensitivity sample_size {'N': 500}
+Risk sensitivity sample_size {'N': 1000}
+Risk sensitivity sample_size {'N': 5000}
+Risk sensitivity sample_size {'N': 10000}
+Risk sensitivity baseline_capture {'capture_a': 0.5}
+Risk sensitivity baseline_capture {'capture_a': 0.9}
+Risk sensitivity correlated {'mode': 'correlated'}
+Risk sensitivity severity {'mode': 'severity'}
+Risk sensitivity independent_recording {'mode': 'independent_records'}
+Risk sensitivity specificity {'specificity': 1.0}
+Risk sensitivity specificity {'specificity': 0.99}
+Tables, figures and analysis audit generated.
+Completed all in 293.8 seconds
